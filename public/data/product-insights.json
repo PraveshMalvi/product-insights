@@ -1,0 +1,390 @@
+{
+  "kpis": [
+    {
+      "title": "Total Products Shown",
+      "value": "4,75,080",
+      "change": "+12%",
+      "subtitle": "from last month",
+      "trend": "up",
+      "chartData": [10, 12, 14, 16, 18, 20, 24]
+    },
+    {
+      "title": "Total Products Sold",
+      "value": "₹ 30,090",
+      "change": "+12%",
+      "subtitle": "from last month",
+      "trend": "up",
+      "chartData": [9, 9.2, 9.4, 9.1, 8.8, 8.6, 8.5]
+    },
+    {
+      "title": "Conversion Rate",
+      "value": "10.2%",
+      "subtitle": "Industry benchmark: 8.1%",
+      "trend": "up",
+      "chartData": [10, 12, 14, 16, 18, 20, 24]
+    },
+    {
+      "title": "AOP Shown/Customer",
+      "value": "25",
+      "subtitle": "Industry benchmark: 8.1%",
+      "trend": "up",
+      "chartData": [800, 900, 1000, 1100, 1150, 1200, 1250]
+    },
+    {
+      "title": "ASP",
+      "value": "₹ 30,090",
+      "subtitle": "Industry benchmark: ₹ 22,090",
+      "trend": "down",
+      "chartData": [9, 9.2, 9.4, 9.1, 8.8, 8.6, 8.5]
+    }
+  ],
+  "purchasePurposeTrends": [
+    { "month": "Jan", "rings": 3200, "bracelets": 1172, "others": 1172 },
+    { "month": "Feb", "rings": 1000, "bracelets": 1000, "others": 1000 },
+    { "month": "Mar", "rings": 3292, "bracelets": 1000, "others": 1000 },
+    { "month": "Apr", "rings": 2913, "bracelets": 2955, "others": 1000 },
+    { "month": "May", "rings": 1633, "bracelets": 1822, "others": 1000 },
+    { "month": "Jun", "rings": 1000, "bracelets": 1000, "others": 1000 }
+  ],
+  "tabs": [
+    {
+      "id": "top5",
+      "label": "Top 5",
+      "items": [
+        {
+          "title": "18K Gold Diamond Ring",
+          "description": "Highest demand & revenue",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Platinum Sapphire Necklace",
+          "description": "Loved for anniversaries",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Sterling Silver Emerald Earrings",
+          "description": "Trending on social media",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Rose Gold Morganite Bracelet",
+          "description": "Features a delicate pavé setting",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Titanium Tungsten Wedding Band",
+          "description": "Praised for its scratch-resistance",
+          "image": "/images/jewelIcon.png"
+        }
+      ]
+    },
+    {
+      "id": "leakage",
+      "label": "Leakage",
+      "items": [
+        {
+          "title": "Silver Anklet",
+          "description": "Low conversion despite high views",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Gold Nose Pin",
+          "description": "High add-to-cart rate but poor checkout",
+          "image": "/images/jewelIcon.png"
+        }
+      ]
+    },
+    {
+      "id": "insights",
+      "label": "Insights",
+      "items": [
+        {
+          "title": "Seasonal Spike",
+          "description": "Bracelets peak in festive months",
+          "image": "/images/jewelIcon.png"
+        },
+        {
+          "title": "Demographic Trend",
+          "description": "Necklaces popular among 25-35 age group",
+          "image": "/images/jewelIcon.png"
+        }
+      ]
+    }
+  ],
+
+  "salesBreakdown": {
+    "title": "Earrings dominate June at ₹102.6Cr; gold surge July",
+    "tabs": [
+      {
+        "id": "rings",
+        "label": "Rings",
+        "stages": [
+          {
+            "name": "Products Shown",
+            "value": 1270000,
+            "label": "1.27M",
+            "percent": 100
+          },
+          {
+            "name": "Shortlisted",
+            "value": 984000,
+            "label": "984K",
+            "percent": 78,
+            "dropoff": { "percent": 22, "reason": "Inventory issue" }
+          },
+          {
+            "name": "Finalised",
+            "value": 953000,
+            "label": "953K",
+            "percent": 75,
+            "dropoff": { "percent": 3, "reason": "Design issue" }
+          },
+          {
+            "name": "Checkout",
+            "value": 559000,
+            "label": "559K",
+            "percent": 44,
+            "dropoff": { "percent": 31, "reason": "Size issue" }
+          },
+          {
+            "name": "Net Revenue",
+            "value": 1040000000,
+            "label": "₹10,40,00,000",
+            "percent": 43.5,
+            "refund": { "percent": 0.5, "reason": "Design issue" }
+          }
+        ],
+        "categoryRows": [
+          {
+            "range": "< 1 ct",
+            "products": "50K",
+            "dropoff": "2%",
+            "issues": ["Market fluctuations", "Supply issues", "+2"],
+            "revenue": "₹10,40,00,000",
+            "growth": "+12% from last month"
+          },
+          {
+            "range": "1.0 – 1.5 ct",
+            "products": "100K",
+            "dropoff": "4%",
+            "issues": ["Regulatory changes", "Staffing", "+4"],
+            "revenue": "₹11,20,00,000",
+            "growth": "+12% from last month"
+          },
+          {
+            "range": "1.5 – 2.0 ct",
+            "products": "30K",
+            "dropoff": "1%",
+            "issues": ["Technical hiccups", "Training", "+1"],
+            "revenue": "₹11,20,00,000",
+            "growth": "+12% from last month"
+          },
+          {
+            "range": "> 2.0 ct",
+            "products": "30K",
+            "dropoff": "1%",
+            "issues": ["Technical hiccups", "Training", "+1 more"],
+            "revenue": "₹9,60,00,000",
+            "growth": "+12% from last month"
+          }
+        ]
+      },
+      {
+        "id": "bracelets",
+        "label": "Bracelets",
+        "stages": [],
+        "categoryRows": []
+      },
+      {
+        "id": "pendants",
+        "label": "Pendants",
+        "stages": [],
+        "categoryRows": []
+      },
+      {
+        "id": "9kt_Collection",
+        "label": "9kt Collection",
+        "stages": [],
+        "categoryRows": []
+      },
+      {
+        "id": "solitaire",
+        "label": "Solitaire",
+        "stages": [],
+        "categoryRows": []
+      },
+      {
+        "id": "others",
+        "label": "Others",
+        "stages": [],
+        "categoryRows": []
+      }
+    ],
+    "insight": {
+      "message": "Checkout abandonment is disproportionately high for 18kt gold, suggesting size chart clarity and metal variant recommendations could recover up to ₹3.2M in potential sales."
+    }
+  },
+
+  "issues": [
+    {
+      "product": "18K Gold Diamond Ring",
+      "feedback": "Love the cost to value of this",
+      "availableInStores": 231,
+      "sentiment": "Positive",
+      "issue": "Inventory Issue"
+    },
+    {
+      "product": "Platinum Sapphire Necklace",
+      "feedback": "Love the cost to value of this",
+      "availableInStores": 334,
+      "sentiment": "Neutral",
+      "issue": "Seasonal"
+    },
+    {
+      "product": "Silver Emerald Earrings",
+      "feedback": "Love the cost to value of this",
+      "availableInStores": 231,
+      "sentiment": "Negative",
+      "issue": "Inventory shortage"
+    },
+    {
+      "product": "Rose Gold Aquamarine Bracelet",
+      "feedback": "Love the cost to value of this",
+      "availableInStores": 53,
+      "sentiment": "Positive",
+      "issue": "Discontinued SKU"
+    },
+    {
+      "product": "White Gold Pearl Pendant",
+      "feedback": "Love the cost to value of this",
+      "availableInStores": 109,
+      "sentiment": "Positive",
+      "issue": "Discontinued SKU"
+    }
+  ],
+
+  "exploreProducts": [
+    {
+      "product": "18K Gold Diamond Ring",
+      "feedback": "Love the cost to value of this",
+      "availableStores": 231,
+      "sentiment": "Positive",
+      "issue": "Inventory Issue",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Platinum Sapphire Necklace",
+      "feedback": "Love the cost to value of this",
+      "availableStores": 334,
+      "sentiment": "Neutral",
+      "issue": "Seasonal",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Silver Emerald Earrings",
+      "feedback": "Love the cost to value of this",
+      "availableStores": 231,
+      "sentiment": "Negative",
+      "issue": "Inventory shortage",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Rose Gold Aquamarine Bracelet",
+      "feedback": "Love the cost to value of this",
+      "availableStores": 53,
+      "sentiment": "Positive",
+      "issue": "Discontinued SKU",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "White Gold Pearl Pendant",
+      "feedback": "Love the cost to value of this",
+      "availableStores": 109,
+      "sentiment": "Positive",
+      "issue": "Discontinued SKU",
+      "image": "/images/jewelIcon.png"
+    },
+
+    {
+      "product": "Titanium Onyx Ring",
+      "feedback": "Customers love its durability",
+      "availableStores": 88,
+      "sentiment": "Positive",
+      "issue": "Low stock",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Gold-Plated Anklet",
+      "feedback": "Stylish and affordable",
+      "availableStores": 120,
+      "sentiment": "Neutral",
+      "issue": "High returns",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Ruby Heart Pendant",
+      "feedback": "Perfect gift item",
+      "availableStores": 200,
+      "sentiment": "Positive",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Diamond Stud Earrings",
+      "feedback": "Classic design sells well",
+      "availableStores": 190,
+      "sentiment": "Positive",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Emerald Halo Ring",
+      "feedback": "Elegant look",
+      "availableStores": 75,
+      "sentiment": "Neutral",
+      "issue": "Supplier delay",
+      "image": "/images/jewelIcon.png"
+    },
+
+    {
+      "product": "Pearl Drop Earrings",
+      "feedback": "Lightweight & comfy",
+      "availableStores": 134,
+      "sentiment": "Positive",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Gold Choker Necklace",
+      "feedback": "Trending among teens",
+      "availableStores": 210,
+      "sentiment": "Positive",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Sapphire Tennis Bracelet",
+      "feedback": "Great for special occasions",
+      "availableStores": 67,
+      "sentiment": "Negative",
+      "issue": "Quality complaints",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Opal Pendant Chain",
+      "feedback": "Unique color play",
+      "availableStores": 92,
+      "sentiment": "Neutral",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    },
+    {
+      "product": "Rose Gold Stud Earrings",
+      "feedback": "Everyday wear favorite",
+      "availableStores": 140,
+      "sentiment": "Positive",
+      "issue": "None",
+      "image": "/images/jewelIcon.png"
+    }
+  ]
+}
